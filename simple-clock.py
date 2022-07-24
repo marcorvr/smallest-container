@@ -13,6 +13,7 @@ def main():
     while True:
         time_of_day = datetime.datetime.now()
         logger.info(f"The time is: {datetime.date.today().isoformat()} @ {time_of_day.hour}:{time_of_day.minute}:{time_of_day.second}")
+        print(f"The time is: {datetime.date.today().isoformat()} @ {time_of_day.hour}:{time_of_day.minute}:{time_of_day.second}")
         time.sleep(10)
 
 if __name__ == "__main__":
