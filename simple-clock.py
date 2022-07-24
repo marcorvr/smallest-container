@@ -6,7 +6,7 @@ LOG_FORMAT = "%(levelname)s - %(name)s - %(funcName)s - %(thread)d - %(message)s
 
 logger = logging.getLogger('SimpleClock')
 logger.setLevel = 0
-logger.__format__()
+# logger.__format__()
 
 def main():
     logger.info("LEVELNAME - NAME - FUNCNAME - THREAD - MESSAGE")
