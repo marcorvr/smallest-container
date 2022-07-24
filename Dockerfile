@@ -11,10 +11,10 @@ ADD . /app
 RUN pip install -r requirements.txt
 
 # Make port 80 available to the world outside this container
-EXPOSE 80
+# EXPOSE 80
 
 # Define environment variable
-ENV NAME SimpleClock
+# ENV NAME SimpleClock
 
 # Run app.py when the container launches
-CMD ["python", "simple-clock.py"]
+CMD ["python3", "simple-clock.py"]
