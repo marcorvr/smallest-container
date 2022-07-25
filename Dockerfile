@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 # ENV NAME SimpleClock
 
 # Run app.py when the container launches
-CMD ["python3", "simple-clock.py"]
+CMD ["python3", "-u", "simple-clock.py"]
